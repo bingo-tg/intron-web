@@ -1,0 +1,320 @@
+/*---------------------------------------
+	body
+----------------------------------------*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #171717;
+	background-image: url(../img/bg-k.png);
+	color: #333333;
+	line-height: 1.4em;
+	font-size: 14px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1 {
+	padding-left: 4px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	border-bottom: solid 1px #999999;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+h3 {
+	padding-left: 4px;
+	padding-bottom: 2px;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: solid 1px #999999;
+}
+
+p {
+	line-height: 1.8em;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+a.point {
+	padding-left: 16px;
+	background-image: url(../img/point.png);
+	background-repeat: no-repeat;
+}
+
+ul.number {
+	list-style-type: decimal;
+	line-height: 1.8em;
+}
+
+strong {
+	color: #df002d;
+}
+
+iframe {
+	background-color: #ffffff;
+}
+
+/*---------------------------------------
+	header
+----------------------------------------*/
+
+#logo {
+	width: 240px;
+	height: 80px;
+	float: left;
+	position: relative;
+	top: -20px;
+	text-align: center;
+	background: linear-gradient(#404040, #060202);
+	background-color: #060202;
+	border-radius: 0px 0px 6px 6px;
+}
+
+#logo img {
+	margin-top: 33px;
+}
+
+#header {
+	width: 840px;
+	padding: 0px 60px;
+}
+
+#header ul {
+	margin-top: 40px;
+	font-size: 12px;
+	list-style: none;
+}
+
+#header li {
+	margin-left: 10px;
+	width: 90px;
+	float: left;
+	position: relative;
+	border-bottom: solid 1px #858585;
+	z-index: 1;
+}
+
+#header > ul > li {
+	height: 20px;
+}
+
+#header li ul {
+	width: 80px;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	background: linear-gradient(#404040, #060202);
+	background-color: #060202;
+	display: none;	
+}
+
+#header li ul li {
+	width: 160px;
+	left: -40px;
+	border: none;
+}
+
+#header li ul li a {
+	margin-left: -10px;
+	padding: 10px;
+	width: 100px;
+	color:#ffffff;
+	text-decoration:none;
+	border-bottom: solid 1px #ffffff;
+	display: inline-block;
+}
+
+#header li ul li a:hover {
+	width: 100px;
+	color: #ffffff;
+	background-color: #df002d;
+}
+
+.off {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	opacity: 1;
+	z-index: 1;
+}
+
+.on {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	opacity: 0;
+	z-index: 2;
+}
+
+/*---------------------------------------
+	footer
+----------------------------------------*/
+
+#horizon {
+	margin: 0px auto;
+	padding: 0px;
+	width: 960px;
+	height: 1px;
+	background-color: #999999;
+}
+
+#footer {
+	width: 860px;
+	padding: 0px 50px;
+	overflow: hidden;
+}
+
+#footer a {
+	color: #df0022;
+}
+
+#footer a:hover {
+	color: #df0022;
+	text-decoration: none;
+}
+
+#footer ul {
+	margin-left: -10px;
+	list-style: none;
+	font-size: 12px;
+}
+
+#footer li {
+	margin-left: 10px;
+	width: 80px;
+	float: left;
+	position: relative;
+	border-bottom: solid 1px #858585;
+}
+
+#footer > ul > li {
+	height: 20px;
+}
+
+#footer li ul {
+	width: 80px;
+	position: absolute;
+	top: 30px;
+}
+
+#footer li ul li {
+	width: 100px;
+	left: -40px;
+	border: none;
+}
+
+#footer li ul li a {
+	color: #333333;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#footer li ul li a:hover {
+	color: #df0022;
+	text-decoration: none;
+}
+
+#footer p {
+	height: 207px;
+	position: relative;
+	top: 240px;
+	float: left;
+}
+
+a#button {
+	padding-top: 8px;
+	width: 200px;
+	height: 32px;
+	color: #000000;
+	text-align: center;
+	background-color: #ffffff;
+	text-decoration: none;
+	position: absolute;
+	right: 0px;
+	bottom: 60px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px #666666;
+	opacity: 0.75;
+}
+
+a:hover#button {
+	color: #000000;
+	opacity: 1.0;
+}
+
+#copy {
+	padding: 0px 20px;
+	width: 920px;
+	height: 60px;
+}
+
+#copy a {
+	margin-top: 13px;
+}
+
+#copy p {
+	margin-top: 24px;
+	font-size: 12px;
+}
+
+/*---------------------------------------
+	others
+----------------------------------------*/
+
+#main {
+	width: 840px;
+	padding: 0px 60px;
+	overflow: hidden;
+}
+
+#white {
+	background-color: #ffffff;
+	background-image: url(../img/bg-w.png);
+}
+
+#gray {
+	background-color: #cccccc;	
+}
+
+#dark {
+	background-color: #999999;
+}
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.right {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.left {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
